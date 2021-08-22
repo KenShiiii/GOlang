@@ -2,9 +2,8 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
-
-const pi = 3.141615
 
 type square struct {
 	long  float32
@@ -22,7 +21,7 @@ func (s square) area() float32 {
 	return a
 }
 func (c circle) area() float32 {
-	a := pi * c.radius * c.radius
+	a := math.Pi * c.radius * c.radius
 	return a
 }
 func info(s shape) {
