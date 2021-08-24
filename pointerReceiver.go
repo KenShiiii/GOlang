@@ -11,7 +11,8 @@ type person struct {
 }
 
 func changeMe(p *person) {
-	(*p).age++
+	p.age++
+	//(*p).age++         // work as well
 
 }
 func main() {

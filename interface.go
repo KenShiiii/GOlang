@@ -7,7 +7,6 @@ import (
 
 type square struct {
 	long  float32
-	width float32
 }
 type circle struct {
 	radius float32
@@ -17,7 +16,7 @@ type shape interface {
 }
 
 func (s square) area() float32 {
-	a := s.long * s.width
+	a := s.long * s.long
 	return a
 }
 func (c circle) area() float32 {
@@ -31,12 +30,10 @@ func info(s shape) {
 func main() {
 	sq := square{
 		long:  15.5,
-		width: 13.0,
 	}
 	cc := circle{
 		radius: 5.0,
 	}
-
 	//fmt.Println(sq.area())
 	//fmt.Println(cc.area())
 	info(sq)
