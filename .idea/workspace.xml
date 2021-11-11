@@ -16,12 +16,19 @@
         <item name="GROUP_NODE:Golang_practice" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Golang_practice" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:Golang_practice/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a2d83f3-69d1-4bb3-8da6-85b58a5ce940" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_concurrency/race_condition.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_concurrency/race_condition.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20_concurrency/applyMutex.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_concurrency/applyMutex.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +68,28 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Go Build.go build applyMutex.go">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build AtomicPackage.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Golang_prac" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/20_concurrency/AtomicPackage.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build applyMutex.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang_prac" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/20_concurrency/applyMutex.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Golang_prac" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/20_concurrency/os_arch/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -88,6 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build AtomicPackage.go" />
         <item itemvalue="Go Build.go build applyMutex.go" />
         <item itemvalue="Go Build.go build race_condition.go" />
         <item itemvalue="Go Build.go build waitGroup.go" />
@@ -103,7 +128,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Golang_practice/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -115,22 +152,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1137" y="407" key="#GOPATH/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1630907763374" />
-    <state width="1858" height="348" key="GridCell.Tab.0.bottom" timestamp="1636512759643">
+    <state width="1858" height="348" key="GridCell.Tab.0.bottom" timestamp="1636516387985">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1858" height="348" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636512759643" />
-    <state width="1858" height="348" key="GridCell.Tab.0.center" timestamp="1636512759643">
+    <state width="1858" height="348" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636516387985" />
+    <state width="1858" height="348" key="GridCell.Tab.0.center" timestamp="1636516387984">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1858" height="348" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636512759643" />
-    <state width="1858" height="348" key="GridCell.Tab.0.left" timestamp="1636512759643">
+    <state width="1858" height="348" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636516387984" />
+    <state width="1858" height="348" key="GridCell.Tab.0.left" timestamp="1636516387984">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1858" height="348" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636512759643" />
-    <state width="1858" height="348" key="GridCell.Tab.0.right" timestamp="1636512759643">
+    <state width="1858" height="348" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636516387984" />
+    <state width="1858" height="348" key="GridCell.Tab.0.right" timestamp="1636516387985">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1858" height="348" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636512759643" />
+    <state width="1858" height="348" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636516387985" />
     <state width="1342" height="328" key="GridCell.Tab.1.bottom" timestamp="1630214691172">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

@@ -4,22 +4,22 @@ import (
 	"fmt"
 	"runtime"
 	"sync"
+	"sync/atomic"
 )
 
 
-var counter int
+var counter int64
 var wg sync.WaitGroup
-var mu sync.Mutex
+
 
 
 func incrementer(){
-	mu.Lock()
-	i := counter
-	//runtime.Gosched()
-	i++
-	counter = i
-	fmt.Println("counter: ",counter,"NumOfGoRountine: ",runtime.NumGoroutine())
-	mu.Unlock()
+
+	atomic.AddInt64(&counter, 1)
+	runtime.Gosched()
+
+	fmt.Println("counter: ",atomic.LoadInt64(&counter),"\tNumOfGoRountine: ",runtime.NumGoroutine())
+
 	wg.Done()
 }
 
