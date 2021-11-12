@@ -28,7 +28,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a2d83f3-69d1-4bb3-8da6-85b58a5ce940" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20_concurrency/applyMutex.go" beforeDir="false" afterPath="$PROJECT_DIR$/20_concurrency/applyMutex.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +46,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xO5LEWktsabSIleHzwm08oL0Ym" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,54 +70,54 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build AtomicPackage.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build hands_on_7.go">
+    <configuration name="go build hands_on_3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang_prac" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/20_concurrency/AtomicPackage.go" />
+      <filePath value="$PROJECT_DIR$/20_concurrency/Exercises_ninja10/hands-on#3/hands_on_3.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build applyMutex.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build hands_on_4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang_prac" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/20_concurrency/applyMutex.go" />
+      <filePath value="$PROJECT_DIR$/20_concurrency/Exercises_ninja10/hands-on#4/hands_on_4.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build hands_on_5.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang_prac" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/20_concurrency/os_arch/main.go" />
+      <filePath value="$PROJECT_DIR$/20_concurrency/Exercises_ninja10/hands-on#5/hands_on_5.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build race_condition.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build hands_on_6.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang_prac" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/20_concurrency/race_condition.go" />
+      <filePath value="$PROJECT_DIR$/20_concurrency/Exercises_ninja10/hands-on#6/hands_on_6.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build waitGroup.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build hands_on_7.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang_prac" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/20_concurrency/waitGroup.go" />
+      <filePath value="$PROJECT_DIR$/20_concurrency/Exercises_ninja10/hands-on#7/hands_on_7.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Build.go build AtomicPackage.go" />
-        <item itemvalue="Go Build.go build applyMutex.go" />
-        <item itemvalue="Go Build.go build race_condition.go" />
-        <item itemvalue="Go Build.go build waitGroup.go" />
+        <item itemvalue="Go Build.go build hands_on_7.go" />
+        <item itemvalue="Go Build.go build hands_on_6.go" />
+        <item itemvalue="Go Build.go build hands_on_5.go" />
+        <item itemvalue="Go Build.go build hands_on_4.go" />
+        <item itemvalue="Go Build.go build hands_on_3.go" />
       </list>
     </recent_temporary>
   </component>
@@ -152,22 +154,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1137" y="407" key="#GOPATH/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1630907763374" />
-    <state width="1858" height="348" key="GridCell.Tab.0.bottom" timestamp="1636516387985">
+    <state width="2517" height="347" key="GridCell.Tab.0.bottom" timestamp="1636732783831">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1858" height="348" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636516387985" />
-    <state width="1858" height="348" key="GridCell.Tab.0.center" timestamp="1636516387984">
+    <state width="2517" height="347" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636732783831" />
+    <state width="2517" height="347" key="GridCell.Tab.0.center" timestamp="1636732783831">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1858" height="348" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636516387984" />
-    <state width="1858" height="348" key="GridCell.Tab.0.left" timestamp="1636516387984">
+    <state width="2517" height="347" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636732783831" />
+    <state width="2517" height="347" key="GridCell.Tab.0.left" timestamp="1636732783831">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1858" height="348" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636516387984" />
-    <state width="1858" height="348" key="GridCell.Tab.0.right" timestamp="1636516387985">
+    <state width="2517" height="347" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636732783831" />
+    <state width="2517" height="347" key="GridCell.Tab.0.right" timestamp="1636732783831">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1858" height="348" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636516387985" />
+    <state width="2517" height="347" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636732783831" />
     <state width="1342" height="328" key="GridCell.Tab.1.bottom" timestamp="1630214691172">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -216,6 +218,11 @@
           <url>file://$PROJECT_DIR$/20_concurrency/applyMutex.go</url>
           <line>25</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/20_concurrency/Exercises_ninja10/hands-on#1/solution1.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
