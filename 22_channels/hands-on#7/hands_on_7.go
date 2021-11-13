@@ -21,8 +21,9 @@ func main() {
 }
 func send(c chan<- int) {
 	var wg sync.WaitGroup
-	wg.Add(10)
+
 	for i := 0; i < 10; i++ {
+		wg.Add(1)
 		go func(i int) {
 			for j := 1; j < 11; j++ {
 				c <- i * j
