@@ -28,7 +28,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a2d83f3-69d1-4bb3-8da6-85b58a5ce940" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22_channels/hands-on#7/hands_on_7.go" beforeDir="false" afterPath="$PROJECT_DIR$/22_channels/hands-on#7/hands_on_7.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode_prac" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -71,28 +70,28 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Go Build.go build hands_on_7.go (1)">
-    <configuration name="go build hands_on_4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build InterfaceRevisit.go">
+    <configuration name="go build InterfaceRevisit.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang_prac" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/20_concurrency/Exercises_ninja10/hands-on#4/hands_on_4.go" />
+      <filePath value="$PROJECT_DIR$/Golang_review/InterfaceRevisit.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build hands_on_5.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build checkingError.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang_prac" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/20_concurrency/Exercises_ninja10/hands-on#5/hands_on_5.go" />
+      <filePath value="$PROJECT_DIR$/24_error  handling/checkingError.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build hands_on_6.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build customError.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Golang_prac" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/20_concurrency/Exercises_ninja10/hands-on#6/hands_on_6.go" />
+      <filePath value="$PROJECT_DIR$/24_error  handling/customError.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build InterfaceRevisit.go" />
+        <item itemvalue="Go Build.go build customError.go" />
+        <item itemvalue="Go Build.go build checkingError.go" />
         <item itemvalue="Go Build.go build hands_on_7.go (1)" />
         <item itemvalue="Go Build.go build hands_on_7.go" />
-        <item itemvalue="Go Build.go build hands_on_6.go" />
-        <item itemvalue="Go Build.go build hands_on_5.go" />
-        <item itemvalue="Go Build.go build hands_on_4.go" />
       </list>
     </recent_temporary>
   </component>
@@ -151,62 +150,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1137" y="407" key="#GOPATH" timestamp="1630907763374">
+    <state x="1061" y="455" key="FileChooserDialogImpl" timestamp="1640706798199">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1137" y="407" key="#GOPATH/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1630907763374" />
-    <state width="2517" height="347" key="GridCell.Tab.0.bottom" timestamp="1636740509619">
+    <state x="1061" y="455" key="FileChooserDialogImpl/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1640706798199" />
+    <state width="2517" height="347" key="GridCell.Tab.0.bottom" timestamp="1636989075132">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="347" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636740509619" />
-    <state width="2517" height="347" key="GridCell.Tab.0.center" timestamp="1636740509619">
+    <state width="2517" height="347" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636989075132" />
+    <state width="2517" height="347" key="GridCell.Tab.0.center" timestamp="1636989075132">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="347" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636740509619" />
-    <state width="2517" height="347" key="GridCell.Tab.0.left" timestamp="1636740509619">
+    <state width="2517" height="347" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636989075132" />
+    <state width="2517" height="347" key="GridCell.Tab.0.left" timestamp="1636989075132">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="347" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636740509619" />
-    <state width="2517" height="347" key="GridCell.Tab.0.right" timestamp="1636740509619">
+    <state width="2517" height="347" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636989075132" />
+    <state width="2517" height="347" key="GridCell.Tab.0.right" timestamp="1636989075132">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="347" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636740509619" />
-    <state width="1342" height="328" key="GridCell.Tab.1.bottom" timestamp="1630214691172">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1342" height="328" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1630214691172" />
-    <state width="1342" height="328" key="GridCell.Tab.1.center" timestamp="1630214691172">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1342" height="328" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1630214691172" />
-    <state width="1342" height="328" key="GridCell.Tab.1.left" timestamp="1630214691172">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1342" height="328" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1630214691172" />
-    <state width="1342" height="328" key="GridCell.Tab.1.right" timestamp="1630214691172">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1342" height="328" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1630214691172" />
-    <state x="1543" y="362" key="SettingsEditor" timestamp="1630214131235">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1543" y="362" key="SettingsEditor/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1630214131235" />
-    <state x="1191" y="374" key="Vcs.Push.Dialog.v2" timestamp="1630213732928">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1191" y="374" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1630213732928" />
-    <state x="1416" y="555" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1630213752833">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1416" y="555" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1630213752833" />
-    <state x="1151" y="370" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1630213696684">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1151" y="370" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1630213696684" />
-    <state x="1007" y="405" width="672" height="678" key="search.everywhere.popup" timestamp="1630909632448">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1007" y="405" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1630909632448" />
+    <state width="2517" height="347" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.272.1920.1160@0.0.2560.1400" timestamp="1636989075132" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -224,6 +187,11 @@
           <url>file://$PROJECT_DIR$/20_concurrency/Exercises_ninja10/hands-on#1/solution1.go</url>
           <line>6</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/24_error  handling/customError.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
